@@ -1,0 +1,8 @@
+a = input("Digite algo no teclado :")
+print("O tipo primitivo desse valor é ", type(a))
+print("Só tem espaços? ", a.isspace()) #todo objeto string possui metodos que no pyhton sao caracteristicos dos ()
+print("é um numero ? ", a.isnumeric())
+print("é alfabetico ? ", a.isalpha())
+print("é alfanumerico ? ", a.isalnum())
+print("Esta em maiusculo ? ", a.isupper())
+print("Esta em minusculo ? ", a.islower())
